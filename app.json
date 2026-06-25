@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "controlHoras",
+    "slug": "controlNotas",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "controlnotas",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.magewhats.controlhoras",
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sharing"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "503b36eb-9227-411a-9f2d-bbe3f96ace38"
+      }
+    }
+  }
+}
